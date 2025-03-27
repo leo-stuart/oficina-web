@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Configurações gerais */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f0fe; /* Light blue background */
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #002855;
+    color: #FFD700;
+    padding: 15px 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 26px;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.voltar {
+    position: relative;
+    padding: 5px 15px;
+}
+
+.voltar a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.voltar button {
+    background-color: #FFD700;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #002855;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 8px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.voltar button:hover {
+    background-color: #002855;
+    color: #FFD700;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #002855;
+    margin: 25px 0;
+}
+
+p {
+    margin: 0 5%;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+ul {
+    margin: 25px 5%;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.imagem {
+    display: block;
+    margin: 40px auto;
+    border-radius: 15px;
+    border: 3px solid #FFD700;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    max-width: 90%;
+    height: auto;
+}
